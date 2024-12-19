@@ -1,6 +1,3 @@
-<p align="center">
-  <img alt="quiz-match" src=".github/preview.png" width="100%">
-</p>
 
 # QUIZ-MATCH
 Bem-vindo ao QUIZ-MATCH ! 🚀
