@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: Sou um bom funcionário?</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>DESCUBRA SE VAMOS DAR MATCH</h1>
+        <div id="quiz">
+            <div class="question-container">
+                <h2 id="question">Questão será exibida aqui</h2>
+                <ul id="answers">
+                    <!-- Opções serão adicionadas dinamicamente -->
+                </ul>
+            </div>
+            <button id="submit" disabled>Confirmar Resposta</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Resultado Final</h2>
+            <p id="score"></p>
+            <ul id="feedback-list">
+                <!-- Feedback dinâmico será adicionado aqui -->
+            </ul>
+            <button onclick="location.reload()">Recomeçar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+ 

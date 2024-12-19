@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Fundo escuro */
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5; /* Texto claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background: #1e1e1e; /* Fundo do container mais claro que o fundo principal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #00d412; /* Azul vibrante para títulos */
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #00d412; /* Azul vibrante */
+    color: #121212; /* Texto escuro no botão */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #555; /* Botão desabilitado em cinza */
+    cursor: not-allowed;
+}
+
+button:hover:enabled {
+    background-color: #0288d1; /* Azul escuro ao passar o mouse */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #2e2e2e; /* Cinza escuro para opções */
+    border: 1px solid #444; /* Bordas sutis */
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #f5f5f5; /* Texto claro */
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #3f3f3f; /* Opção destacada ao passar o mouse */
+}
+
+li.selected {
+    background-color: #0288d1; /* Azul escuro para opção selecionada */
+    color: #121212; /* Texto escuro na opção selecionada */
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#feedback-list {
+    text-align: left; /* Feedback alinhado à esquerda */
+    padding-left: 20px;
+}
+
+#feedback-list li {
+    margin-bottom: 10px;
+    color: #ff5722; /* Laranja vibrante para feedback */
+}
+
