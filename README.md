@@ -24,3 +24,4 @@ CSS : Estilização e design do quiz.
 JavaScript : Lógica do quiz, manipulação de eventos e feedback dinâmico.
 
 API do WhatsApp : Para enviar um link de contato diretamente ao WhatsApp, caso você queira saber mais sobre o assunto.
+# QUIZ-MATCH
