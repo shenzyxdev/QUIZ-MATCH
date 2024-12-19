@@ -1,3 +1,21 @@
+<h1 align="center"> QUIZ-MATCH </h1>
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-funcionalidades">FUNCIONALIDADES</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-QUIZ-MATCH">QUIZ-MATCH</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="QUIZ-MATCH" src=".github/preview.png" width="100%">
+</p>
 
 # QUIZ-MATCH
 Bem-vindo ao QUIZ-MATCH ! 🚀
@@ -16,7 +34,7 @@ Botão de contato no WhatsApp: Ao final do quiz, você pode compartilhar seus re
 
 Interface simples e intuitiva: A navegação é super simples, e você verá as perguntas e respostas de forma clara.
 
-# Tecnologias Usadas
+# Tecnologias
 HTML : Estruturação do conteúdo e layout da página.
 
 CSS : Estilização e design do quiz.
